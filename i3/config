@@ -88,7 +88,7 @@ bindsym $mod+d exec --no-startup-id ~/.config/rofi/launchers/type-1/launcher.sh
 ## Arno bindings
 bindsym $mod+m exec rofi -modi "clipboard:greenclip print" -show clipboard -run-command '{cmd}'
 
-bindsym --release $mod+p exec $HOME/projects/bash/screenshot.sh
+bindsym --release $mod+p exec $HOME/.config/scripts/screenshot.sh
 
 assign [class="firefox"] 3
 assign [class="obsidian"] 2
